@@ -1,0 +1,27 @@
+.report-list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 90%;
+    margin: 50px;
+}
+
+.report-item {
+    border-radius: 5px;
+    padding: 10px 30px;
+    min-height: 70px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.report-property {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.buttons {
+    margin: 5px;
+}

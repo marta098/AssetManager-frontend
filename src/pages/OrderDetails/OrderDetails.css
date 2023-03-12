@@ -1,0 +1,16 @@
+.orderDetailsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    width: 90%;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+    width: 90%;
+}

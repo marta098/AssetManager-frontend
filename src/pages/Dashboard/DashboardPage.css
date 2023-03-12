@@ -1,0 +1,9 @@
+.dashboards-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboards-div > div {
+    margin-left: 100px;
+    margin-right: 100px;
+}

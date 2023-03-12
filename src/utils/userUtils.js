@@ -1,0 +1,1 @@
+export const getUsernameDisplay = user => user.isDeleted ? `${user.username} (nieaktywny)` : user.username;

@@ -1,0 +1,14 @@
+.notification-panel {
+    -webkit-box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+    position: absolute;
+    color: black;
+    top: 50px;
+    right: 10px;
+    background-color: rgba(245, 245, 244, 0.6);
+    border-radius: 5px;
+    padding: 10px;
+    width: 350px;
+    border: 0.5px solid lightgray;
+}

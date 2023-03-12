@@ -1,0 +1,6 @@
+.notification-div {
+    margin-right: 30px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}

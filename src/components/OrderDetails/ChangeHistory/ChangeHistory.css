@@ -1,0 +1,26 @@
+.change-history {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.change-history-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.change-history-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.change-history-column {
+    display: flex;
+    margin: 1em;
+    width: calc(100% / 4);
+    justify-content: center;
+    text-align: center;
+}
