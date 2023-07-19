@@ -24,6 +24,11 @@ const WorkloadChart = ({workloadData}) => {
             },
         },
         scales: {
+            x: {
+                ticks: {
+                    stepSize: 1
+                }
+            },
             y: {
                 grid: {
                     display: false

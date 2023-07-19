@@ -3,8 +3,16 @@ import {FormControl, FormHelperText, MenuItem, Select, Typography} from "@mui/ma
 
 
 const CreateOrderSelectRow = ({header, value, setValue, selectValuesMap, error}) => {
-    const menuItems = Array.from(selectValuesMap)
-        .map(object => <MenuItem key={object.key} value={object.key}>{object.value}</MenuItem>);
+
+    let menuItems;
+    if(header === "Email odbiorcy urządzenia"){
+         menuItems = Array.from(selectValuesMap)
+            .map(object => <MenuItem key={object.key} value={object.value}>{object.value}</MenuItem>);
+
+    }else{
+         menuItems = Array.from(selectValuesMap)
+            .map(object => <MenuItem key={object.key} value={object.key}>{object.value}</MenuItem>);
+    }
 
     let isErrorVisible = false;
     if (error && error !== "") {

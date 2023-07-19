@@ -9,7 +9,6 @@ import CreateOrderSelectRow from "../../components/CreateOrder/CreateOrderSelect
 import {deliveryTypeMap} from "../../utils/deliveryTypeUtils";
 import CreateOrderInputRow from "../../components/CreateOrder/CreateOrderInputRow";
 import {fetchAllUsers} from "../../services/user-service";
-import CreateOrderSelectSearchRow from "../../components/CreateOrder/CreateOrderSelectSearchRow";
 import {fetchAllMpkNumbers} from "../../services/util-service";
 import {createOrder} from "../../services/order-service";
 import {getModelArray} from "../../utils/modelUtils";

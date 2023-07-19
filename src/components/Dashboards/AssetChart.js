@@ -33,6 +33,9 @@ const AssetChart = ({inUseCount, inStockCount, deprecatedCount, allAssetCount}) 
             x: {
                 suggestedMin: 0,
                 max: allAssetCount,
+                ticks: {
+                    stepSize: 1
+                }
             },
             y: {
                 grid: {
